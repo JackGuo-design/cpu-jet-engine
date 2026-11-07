@@ -1,0 +1,13 @@
+component,spec,qty,notes
+MCU,ESP32-C3 SuperMini,1,3.3 V logic; USB-C on board; no external programmer/flasher needed
+Motor driver,DRV8871 module (H-bridge),1,VM 6.5-45 V; 3.6 A peak; has an ILIM current-limit pin
+Motor,N30 DC motor,1,N30 used in this build; the original design used an N20 (not enough torque)
+Power supply,12 V DC 1 A,1,Feeds DRV8871 VM only; the adapter's own current limit is the protection
+Resistor,47 kOhm 1/4 W,1,ILIM to GND -> ~1.36 A current limit
+Resistor,1 kOhm 1/4 W,1,In series between GPIO3 and IN1
+Switch,SPST normally open (latching or momentary),1,GPIO4 to GND; closed = running allowed
+Capacitor,100 uF electrolytic,1,Recommended; VM to GND close to the driver (watch polarity)
+Capacitor,0.1 uF ceramic,1,Recommended; VM to GND close to the driver
+Bearings (suggested upgrade),6003ZZ metal shielded,2,Suggested: replaces the plastic bearing in kit 006 once a power take-off is fitted
+Bearings (suggested upgrade),6204ZZ metal shielded,2,Suggested: as above
+Wire,>= 0.5 mm^2,as needed,Do not push motor current through breadboard spring contacts

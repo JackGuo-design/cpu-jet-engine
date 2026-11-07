@@ -1,0 +1,35 @@
+{
+  "port": null,
+  "baud": 115200,
+  "device_vid": 12346,
+  "device_pid": 4097,
+  "bands": [
+    {
+      "cpu": 8,
+      "duty": 30
+    },
+    {
+      "cpu": 25,
+      "duty": 45
+    },
+    {
+      "cpu": 50,
+      "duty": 60
+    },
+    {
+      "cpu": 75,
+      "duty": 80
+    },
+    {
+      "cpu": 100,
+      "duty": 100
+    }
+  ],
+  "hysteresis": 4,
+  "upshift_samples": 2,
+  "downshift_samples": 4,
+  "sample_interval": 1.0,
+  "idle_duty": 30,
+  "log_file": "engine_host.log",
+  "log_status_every_s": 10
+}

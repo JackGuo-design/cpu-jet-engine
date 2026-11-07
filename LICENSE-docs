@@ -1,0 +1,30 @@
+Documentation, figures and text in this repository are licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0).
+
+Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-sa/4.0/
+
+You are free to share (copy and redistribute the material in any medium or
+format) and to adapt (remix, transform, and build upon it) for any purpose,
+even commercially, under these terms:
+
+  Attribution - You must give appropriate credit to "CPU Jet Engine by
+  BH8UMP (https://github.com/JackGuo-design/cpu-jet-engine)", provide a link to the
+  license, and indicate if changes were made.
+
+  ShareAlike - If you remix, transform, or build upon the material, you must
+  distribute your contributions under the same license as the original.
+
+  No additional restrictions - You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license
+  permits.
+
+Scope: this license covers everything under docs/ (both docs/en and docs/zh),
+README.md, README.zh-CN.md, CONTRIBUTING.md and CHANGELOG.md, plus the text of
+CREDITS.md.
+
+It does NOT cover anything third-party that this project describes or points to:
+the printed airframe and its build instructions (CATIAV5FTW, MakerWorld
+Exclusive License), the printed power components (炒面大师 / @sinnercool,
+CC BY-NC 4.0), or the commercial hardware kit. See CREDITS.md.
